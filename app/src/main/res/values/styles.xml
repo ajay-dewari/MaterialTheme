@@ -34,7 +34,7 @@
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
     </style>
 
-    <!-- Button style -->
+    <!-- PrimaryButton style -->
     <style name="Widget.MyApp.PrimaryButton" parent="Widget.MaterialComponents.Button">
         <item name="android:minHeight">60dp</item>
         <item name="backgroundTint">@color/cercie_pink_06</item>
@@ -46,8 +46,20 @@
         <item name="textAllCaps">false</item>
     </style>
 
+    <!-- SecondaryButton style -->
+    <style name="Widget.MyApp.SecondaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="backgroundTint">@android:color/white</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/cercie_pink_06</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
     <!-- EditTextInputLayout style -->
-    <style name="Widget.MyApp.EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+    <style name="Widget.MyApp.EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@android:color/darker_gray</item>
         <item name="hintTextColor">@color/cercie_pink_06</item>
     </style>
