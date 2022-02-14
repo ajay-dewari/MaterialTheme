@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <!-- Heading TextView style -->
+    <style name="Widget.MyApp.Heading" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">32dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <!-- SubHeading TextView style -->
+    <style name="Widget.MyApp.SubHeading" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <!-- Body TextView style -->
+    <style name="Widget.MyApp.Body" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <!-- TextView style -->
+    <style name="Widget.MyApp.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="Widget.MyApp.PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">60dp</item>
+        <item name="backgroundTint">@color/cercie_pink_06</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- EditTextInputLayout style -->
+    <style name="Widget.MyApp.EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@android:color/darker_gray</item>
+        <item name="hintTextColor">@color/cercie_pink_06</item>
+    </style>
+
+    <!-- CheckBox style -->
+    <style name="Widget.MyApp.CompoundButton.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CheckBox</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <!-- Radio Button style -->
+    <style name="Widget.MyApp.CompoundButton.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <!-- Switch style -->
+    <style name="Widget.MyApp.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+
+    <style name="ThemeOverlay.App.CheckBox" parent="">
+        <item name="colorSecondary">@color/cercie_pink_06</item>
+    </style>
+</resources>

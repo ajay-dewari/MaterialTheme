@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="pay_latter_using_instant_credit">Pay latter using instant credit</string>
+    <string name="for_everything_everywhere">for every thing, everywhere</string>
+    <string name="get_started">Get Started</string>
+    <string name="allow_app_to_send_message">Allow App to send you messages on <b>WhatsApp</b></string>
+</resources>
